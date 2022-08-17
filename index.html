@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <script src="scripts/index.js" async></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ </head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="sign">
+                <a class="signIn active">SIGN IN</a>
+                <a class="signUp">SIGN UP</a>
+            </div>
+            <form action="">
+                <p>UserName</p>
+                <input type="text" class="input" id="username" onkeyup="isEmpty()">
+                <p>Password</p>
+                <input type="password" class="input" id="password" onkeyup="isEmpty()">
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="checkbox-input" onkeyup="isEmpty()" onclick="isEmpty()">
+                    <label for="checkbox">Keep Me Signed In</label>
+                </div>
+                <button type="button" id="btn" disabled onclick="getInputValue()">SIGN IN</button>
+                <p class="forgotPass">Forgot Password</p>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
