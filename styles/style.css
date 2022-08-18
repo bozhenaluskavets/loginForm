@@ -21,13 +21,14 @@ p {
     font: 500 14px 'Montserrat', sans-serif;
 }
 
-.checkbox input {
+#checkbox {
     width: 24px;
     height: 24px;
     margin: 0 10px 0 0;
+    accent-color: rgb(243, 203, 74);
 }
 
-.checkbox input::after {
+#checkbox::after {
     position: absolute;
     content: '';
     width: 24px;
@@ -37,7 +38,7 @@ p {
     cursor: pointer;
 }
 
-.checkbox input:checked::after {
+#checkbox:checked::after {
     width: 0;
 }
 
@@ -45,27 +46,9 @@ p {
     padding-top: 3px;
 }
 
-form button {
-    background-color: rgba(171, 145, 123, 0.563);
-    border: none;
-    border-radius: 20px;
-    margin-bottom: 7px;
-    padding-bottom: 25px;
-    color: white;
-    font: 500 14px 'Montserrat', sans-serif;
-    padding: 10px;
-    margin-bottom: 50px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-form .forgotPass {
+.forgotPass {
     border-top: 1px solid #f0e5e562;
     padding-top: 50px;
     text-align: center;
     cursor: pointer;
 }
-
-
-
-

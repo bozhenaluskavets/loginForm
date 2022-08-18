@@ -16,16 +16,16 @@
     <div class="container">
         <div class="content">
             <div class="sign">
-                <a class="signIn active">SIGN IN</a>
-                <a class="signUp">SIGN UP</a>
+                <a id="signIn">SIGN IN</a>
+                <a id="signUp">SIGN UP</a>
             </div>
-            <form action="">
+            <form id="form">
                 <p>UserName</p>
-                <input type="text" class="input" id="username" onkeyup="isEmpty()">
+                <input type="text" class="input" id="username">
                 <p>Password</p>
-                <input type="password" class="input" id="password" onkeyup="isEmpty()">
+                <input type="password" class="input" id="password">
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox" class="checkbox-input" onkeyup="isEmpty()" onclick="isEmpty()">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="checkbox-input">
                     <label for="checkbox">Keep Me Signed In</label>
                 </div>
                 <button type="button" id="btn" disabled onclick="getInputValue()">SIGN IN</button>

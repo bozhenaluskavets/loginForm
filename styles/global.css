@@ -43,3 +43,21 @@ a.active {
     border: solid 1px rgb(183, 105, 208);
     box-shadow: rgba(160, 160, 160, 0.399) 0px 2px 8px 0px;
 }
+
+form #btn {
+    background-color: #F3CB4A;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 7px;
+    padding-bottom: 25px;
+    color: white;
+    font: 500 14px 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:disabled {
+    background-color: rgba(185, 175, 175, 0.555);
+}
